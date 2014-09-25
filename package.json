@@ -1,0 +1,18 @@
+{
+  "name": "react-mail",
+  "version": "0.0.0",
+  "description": "Just testing with React and Webpack",
+  "repository": "",
+  "scripts": {
+    "start": "node --harmony server/js/app.js"
+  },
+  "author": "Dallin Osmun",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "config": "^1.2.1",
+    "koa": "^0.12.1",
+    "koa-static": "^1.4.7",
+    "react": "^0.11.2"
+  }
+}
