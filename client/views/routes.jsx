@@ -6,6 +6,8 @@
 'use strict';
 
 var React = require('react');
+window.React = React;
+
 var {Routes, Route, DefaultRoute, NotFoundRoute} = require('react-router');
 
 var App = require('./app');

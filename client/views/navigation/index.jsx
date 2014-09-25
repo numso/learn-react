@@ -17,9 +17,9 @@ var Nav = React.createClass({
       { to: 'contacts', label: 'Contacts' },
       { to: 'profile',  label: 'Profile'  },
       { to: 'settings', label: 'Settings' }
-    ].map(function (item) {
+    ].map(function (item, i) {
       return (
-        <MyLink to={item.to}>{item.label}</MyLink>
+        <MyLink key={i} to={item.to}>{item.label}</MyLink>
       );
     }.bind(this));
     return (
