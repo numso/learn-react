@@ -9,13 +9,14 @@ require('./style');
 
 var React = require('react');
 
+var Header = require('../header');
 var Nav = require('../navigation');
 
 var App = React.createClass({
   render: function() {
     return (
       <div>
-        possible header somewhere
+        <Header/>
         <div className="row">
           <div className="small-6 column">
             <Nav/>

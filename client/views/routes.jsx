@@ -5,11 +5,10 @@
 /* jshint node:true */
 'use strict';
 
-
 var React = require('react');
 var {Routes, Route, DefaultRoute, NotFoundRoute} = require('react-router');
 
-var App = require('./main');
+var App = require('./app');
 var Inbox = require('./inbox');
 var Contacts = require('./contacts');
 var Profile = require('./profile');
