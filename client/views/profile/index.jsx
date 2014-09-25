@@ -5,16 +5,16 @@
 /* jshint node:true */
 'use strict';
 
-require('./main.styl');
+require('./style');
 
 var React = require('React');
 
-var App = React.createClass({
+var Profile = React.createClass({
   render: function() {
     return (
-      <div>hey there!</div>
+      <div>Profile Page</div>
     );
   }
 });
 
-React.renderComponent(<App/>, document.body);
+module.exports = Profile;
