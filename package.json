@@ -8,11 +8,18 @@
   },
   "author": "Dallin Osmun",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.9.0",
+    "jsx-loader": "^0.11.0",
+    "style-loader": "^0.8.0",
+    "stylus-loader": "^0.4.0",
+    "url-loader": "^0.5.5"
+  },
   "dependencies": {
     "config": "^1.2.1",
     "koa": "^0.12.1",
     "koa-static": "^1.4.7",
-    "react": "^0.11.2"
+    "react": "^0.11.2",
+    "react-router": "^0.7.0"
   }
 }

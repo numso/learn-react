@@ -8,6 +8,8 @@
 require('./style');
 
 var React = require('React');
+// var {Routes, Route, DefaultRoute} = require('React-Router');
+
 var Profile = require('../profile');
 var Nav = require('../navigation');
 
