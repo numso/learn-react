@@ -7,7 +7,7 @@
 
 require('./style');
 
-var React = require('React');
+var React = require('react');
 
 var Profile = React.createClass({
   render: function() {

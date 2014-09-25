@@ -7,7 +7,7 @@
 
 require('./style');
 
-var React = require('React');
+var React = require('react');
 
 var Nav = React.createClass({
   render: function() {
