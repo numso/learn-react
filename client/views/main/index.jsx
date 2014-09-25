@@ -8,13 +8,15 @@
 require('./style');
 
 var React = require('React');
-var Profile = require('../profile/index');
+var Profile = require('../profile');
+var Nav = require('../navigation');
 
 var App = React.createClass({
   render: function() {
     return (
       <div>
-        <span>hey there!</span>
+        <span>Main Page!</span>
+        <Nav/>
         <Profile/>
       </div>
     );

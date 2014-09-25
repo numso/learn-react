@@ -9,12 +9,12 @@ require('./style');
 
 var React = require('React');
 
-var Profile = React.createClass({
+var Nav = React.createClass({
   render: function() {
     return (
-      <div id="profile">Profile Page</div>
+      <div id="nav">Navigation</div>
     );
   }
 });
 
-module.exports = Profile;
+module.exports = Nav;
