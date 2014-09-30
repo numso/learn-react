@@ -9,7 +9,8 @@ Make sure you're running node 0.11.13. (I recommend using nvm)
 
 ##Hack on it
 
-In two different terminal sessions run:
+In three different terminal sessions run:
 
  - `npm start`
  - `webpack -w`
+ - `npm run lr`

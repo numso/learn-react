@@ -15,8 +15,10 @@ var Nav = React.createClass({
     var menu = [
       { to: 'inbox',    label: 'Inbox'    },
       { to: 'contacts', label: 'Contacts' },
+      { to: 'calendar', label: 'Calendar' },
       { to: 'profile',  label: 'Profile'  },
-      { to: 'settings', label: 'Settings' }
+      { to: 'settings', label: 'Settings' },
+      { to: 'test',     label: 'Test'     }
     ].map(function (item, i) {
       return (
         <MyLink key={i} to={item.to}>{item.label}</MyLink>

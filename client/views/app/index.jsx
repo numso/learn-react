@@ -18,10 +18,10 @@ var App = React.createClass({
       <div>
         <Header/>
         <div className="row">
-          <div className="small-6 column">
+          <div className="small-3 column">
             <Nav/>
           </div>
-          <div className="small-6 column">
+          <div className="small-9 column">
             <this.props.activeRouteHandler/>
           </div>
         </div>

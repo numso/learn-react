@@ -15,6 +15,8 @@ var Inbox = require('./inbox');
 var Contacts = require('./contacts');
 var Profile = require('./profile');
 var Settings = require('./settings');
+var Test = require('./test');
+
 var NotFound = require('./not-found');
 
 var routes = (
@@ -22,8 +24,10 @@ var routes = (
     <Route path="/" handler={App}>
       <DefaultRoute name="inbox" handler={Inbox} />
       <Route name="contacts" path="contacts" handler={Contacts}/>
+      <Route name="calendar" path="calendar" handler={Contacts}/>
       <Route name="profile" path="profile" handler={Profile}/>
       <Route name="settings" path="settings" handler={Settings}/>
+      <Route name="test" path="test" handler={Test}/>
     </Route>
     <NotFoundRoute handler={NotFound}/>
   </Routes>

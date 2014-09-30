@@ -4,20 +4,25 @@
   "description": "Just testing with React and Webpack",
   "repository": "",
   "scripts": {
-    "start": "node --harmony server/js/app.js"
+    "start": "node --harmony server/js/app.js",
+    "lr": "node livereload.js"
   },
   "author": "Dallin Osmun",
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^0.9.0",
     "jsx-loader": "^0.11.0",
+    "node-sha1": "0.0.1",
+    "node-watch": "^0.3.4",
     "style-loader": "^0.8.0",
     "stylus-loader": "^0.4.0",
     "url-loader": "^0.5.5"
   },
   "dependencies": {
+    "axios": "^0.3.1",
     "config": "^1.2.1",
     "koa": "^0.12.1",
+    "koa-router": "^3.4.0",
     "koa-static": "^1.4.7",
     "lodash": "^2.4.1",
     "moment": "^2.8.3",
